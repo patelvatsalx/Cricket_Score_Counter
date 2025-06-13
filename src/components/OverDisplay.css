@@ -1,0 +1,29 @@
+.over-display {
+  margin: 20px 0;
+}
+
+.dots-container {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.ball-dot {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: relative;
+}
+
+.ball-dot.filled {
+  background: #333;
+}
+
+.extra-ball {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  color: #ff4444;
+  font-size: 16px;
+}

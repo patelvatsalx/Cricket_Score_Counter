@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#root {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.counter {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.score-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.over-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 50px;  /* Add space below over tracker */
+}
+
+.over-tracker h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.over-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.over-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.balls-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.ball {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.ball.unbowled {
+    background-color: transparent;
+}
+
+.ball.bowled {
+    background-color: blue;
+    border-color: blue;
+}
+
+.ball.last-clicked {
+    background-color: blue;
+    border-color: blue;
+}
+
+.ball.extra {
+    border: 3px solid #dc3545;
+    background-color: #dc3545;
+}
+
+.ball.extra.wide {
+    border-color: #28a745;
+    background-color: #28a745;
+}
+
+.ball.extra.no {
+    border-color: #ffc107;
+    background-color: #ffc107;
+}
+
+.extras-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;  /* Add more space above wide ball section */
+}
+
+.wide-container {
+    width: 300px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wide-container .button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+{
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.suggest.enabled": false,
+    "typescript.suggest.enabled": false,
+    "editor.inlineSuggestions.enabled": false,
+    "editor.suggest.showInlineDetails": false,
+    "editor.inlayHints.enabled": "off",
+    "javascript.inlayHints.functionLikeReturnTypes": false,
+    "javascript.inlayHints.parameterNames": false,
+    "javascript.inlayHints.parameterTypes": false,
+    "javascript.inlayHints.propertyDeclarationTypes": false,
+    "javascript.inlayHints.variableTypes": false
+}
